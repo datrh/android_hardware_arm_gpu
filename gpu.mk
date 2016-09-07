@@ -13,8 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-ifneq (,$(wildcard device/amlogic/$(TARGET_PRODUCT)/BoardConfig.mk))
-include device/amlogic/$(TARGET_PRODUCT)/BoardConfig.mk
+ifneq (,$(wildcard device/khadas/$(TARGET_PRODUCT)/BoardConfig.mk))
+include device/khadas/$(TARGET_PRODUCT)/BoardConfig.mk
 else
 ifneq (,$(wildcard device/customer/$(TARGET_PRODUCT)/BoardConfig.mk))
 include device/customer/$(TARGET_PRODUCT)/BoardConfig.mk
